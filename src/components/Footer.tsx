@@ -15,7 +15,7 @@ const Footer = () => (
         <div>
           <h4 className="font-display font-semibold mb-4">Quick Links</h4>
           <div className="space-y-2 text-sm text-primary-foreground/70">
-            {["/", "/about", "/services", "/contact", "/dealer"].map((to) => (
+            {["/", "/about", "/pricing", "/contact", "/dealer"].map((to) => (
               <Link key={to} to={to} className="block hover:text-secondary transition-colors">
                 {to === "/" ? "Home" : to.slice(1).charAt(0).toUpperCase() + to.slice(2)}
               </Link>

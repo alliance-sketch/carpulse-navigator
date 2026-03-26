@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 
 const services = [
   {
-    icon: Car, title: "Car GPS Tracking", price: "₹3,999",
+    icon: Car, title: "Car GPS Tracking", price: "$49.99",
     desc: "Comprehensive tracking solution for personal cars with real-time monitoring.",
     features: ["Real-time tracking", "Engine cut-off", "Geofencing alerts", "Trip history", "Mobile app access", "SOS button"],
   },
   {
-    icon: Bike, title: "Bike GPS Tracking", price: "₹2,499",
+    icon: Bike, title: "Bike GPS Tracking", price: "$29.99",
     desc: "Compact and weatherproof GPS device designed specifically for two-wheelers.",
     features: ["Compact design", "Theft alerts", "Live location", "Speed alerts", "Battery backup", "Anti-tamper alarm"],
   },
@@ -22,29 +22,29 @@ const services = [
     features: ["Multi-vehicle dashboard", "Route optimization", "Fuel monitoring", "Driver behavior", "Maintenance alerts", "Custom reports"],
   },
   {
-    icon: Bus, title: "School Bus Tracking", price: "₹4,999",
+    icon: Bus, title: "School Bus Tracking", price: "$59.99",
     desc: "Keep children safe with real-time school bus tracking and parent notifications.",
     features: ["Parent app alerts", "Stop notifications", "Attendance tracking", "Route deviation alerts", "Speed monitoring", "Emergency SOS"],
   },
   {
-    icon: Baby, title: "Child Safety Tracker", price: "₹1,999",
+    icon: Baby, title: "Child Safety Tracker", price: "$24.99",
     desc: "Wearable GPS tracker for children with panic button and safe-zone alerts.",
     features: ["SOS panic button", "Safe zone alerts", "Two-way calling", "Location history", "Waterproof design", "Long battery life"],
   },
   {
-    icon: Dog, title: "Pet GPS Tracker", price: "₹1,499",
+    icon: Dog, title: "Pet GPS Tracker", price: "$19.99",
     desc: "Lightweight GPS collar attachment for dogs and cats with activity monitoring.",
     features: ["Lightweight design", "Activity tracking", "Escape alerts", "Virtual fence", "Health monitoring", "Waterproof"],
   },
 ];
 
-const Services = () => (
+const Pricing = () => (
   <div className="min-h-screen">
     <Navbar />
     <section className="hero-gradient pt-32 pb-20">
       <div className="container-main px-4 sm:px-6 lg:px-8">
         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
-          <p className="text-secondary font-semibold text-sm uppercase tracking-wider mb-3">Services</p>
+          <p className="text-secondary font-semibold text-sm uppercase tracking-wider mb-3">Pricing</p>
           <h1 className="font-display text-4xl md:text-5xl font-bold text-primary-foreground leading-tight">
             GPS Solutions for <span className="text-secondary">Every Need</span>
           </h1>
@@ -97,4 +97,4 @@ const Services = () => (
   </div>
 );
 
-export default Services;
+export default Pricing;
