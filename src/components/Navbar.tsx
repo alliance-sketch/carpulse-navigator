@@ -43,7 +43,7 @@ const Navbar = () => {
           <Link to="/login">
             <Button variant="ghost" size="sm">Login</Button>
           </Link>
-          <Link to="/contact">
+          <Link to="/login">
             <Button size="sm" className="bg-secondary text-secondary-foreground hover:bg-secondary/90">
               Get Started
             </Button>
@@ -76,7 +76,7 @@ const Navbar = () => {
               <Link to="/login" onClick={() => setOpen(false)}>
                 <Button variant="ghost" className="w-full">Login</Button>
               </Link>
-              <Link to="/contact" onClick={() => setOpen(false)}>
+              <Link to="/login" onClick={() => setOpen(false)}>
                 <Button className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90">
                   Get Started
                 </Button>
