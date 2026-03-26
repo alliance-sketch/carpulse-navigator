@@ -23,7 +23,7 @@ const About = () => (
             Driving India's <span className="text-secondary">GPS Revolution</span>
           </h1>
           <p className="mt-6 text-lg text-primary-foreground/70 leading-relaxed">
-            Founded in 2018, CarPulseGPS has grown from a small startup to India's most trusted GPS tracking brand, serving over 50,000 vehicles across 28 states.
+            Founded in 2025, CarPulseGPS has quickly become America's most trusted GPS tracking brand, serving over 5,000 vehicles across 15 states.
           </p>
         </motion.div>
       </div>
@@ -35,21 +35,21 @@ const About = () => (
           <div>
             <h2 className="font-display text-3xl font-bold text-foreground">Our Story</h2>
             <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
-              <p>CarPulseGPS was born from a simple but powerful idea: every vehicle owner in India deserves affordable, reliable GPS tracking technology.</p>
-              <p>What started as a two-person team in a Bangalore garage has grown into a nationwide operation with 50+ employees, 500+ dealers, and technology that protects over 50,000 vehicles daily.</p>
+              <p>CarPulseGPS was born from a simple but powerful idea: every vehicle owner in the United States deserves affordable, reliable GPS tracking technology.</p>
+              <p>What started as a small team in Clarkston has grown into a nationwide operation with 12+ employees, 40+ dealers, and technology that protects over 5,000 vehicles daily.</p>
               <p>We've built our reputation on three pillars: cutting-edge technology, unmatched customer service, and partnerships that empower local entrepreneurs through our dealer network.</p>
             </div>
           </div>
           <div>
             <h2 className="font-display text-3xl font-bold text-foreground">Our Mission</h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">
-              To make every journey on Indian roads safer through smart, connected GPS technology — empowering individuals, families, and businesses to track, protect, and optimize their vehicles.
+              To make every journey on American roads safer through smart, connected GPS technology — empowering individuals, families, and businesses to track, protect, and optimize their vehicles.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-4">
               {[
-                { value: "50,000+", label: "Vehicles Protected" },
-                { value: "500+", label: "Active Dealers" },
-                { value: "28+", label: "States Covered" },
+                { value: "5,000+", label: "Vehicles Protected" },
+                { value: "40+", label: "Active Dealers" },
+                { value: "15+", label: "States Covered" },
                 { value: "99.9%", label: "Uptime" },
               ].map((s) => (
                 <div key={s.label} className="p-4 rounded-xl bg-muted/50 text-center">

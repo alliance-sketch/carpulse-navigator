@@ -3,8 +3,8 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 
 const stats = [
-  { value: "50,000+", label: "Vehicles Tracked" },
-  { value: "500+", label: "Dealers Nationwide" },
+  { value: "5,000+", label: "Vehicles Tracked" },
+  { value: "40+", label: "Active Dealers" },
   { value: "99.9%", label: "Uptime Guarantee" },
   { value: "24/7", label: "Customer Support" },
 ];

@@ -9,13 +9,13 @@ const Footer = () => (
         <div>
           <Logo className="text-primary-foreground [&_span]:text-secondary" />
           <p className="mt-4 text-sm text-primary-foreground/70 leading-relaxed">
-            India's trusted GPS tracking solutions for vehicles, fleets, and personal safety.
+            America's trusted GPS tracking solutions for vehicles, fleets, and personal safety.
           </p>
         </div>
         <div>
           <h4 className="font-display font-semibold mb-4">Quick Links</h4>
           <div className="space-y-2 text-sm text-primary-foreground/70">
-            {["/", "/about", "/services", "/contact", "/dealer"].map((to) => (
+            {["/", "/about", "/pricing", "/contact", "/dealer"].map((to) => (
               <Link key={to} to={to} className="block hover:text-secondary transition-colors">
                 {to === "/" ? "Home" : to.slice(1).charAt(0).toUpperCase() + to.slice(2)}
               </Link>
@@ -35,11 +35,11 @@ const Footer = () => (
           <div className="space-y-3 text-sm text-primary-foreground/70">
             <div className="flex items-start gap-2">
               <MapPin className="w-4 h-4 mt-0.5 text-secondary" />
-              <span>123 Tech Park, Bangalore, India</span>
+              <span>South Main Street, Clarkston, United States</span>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-secondary" />
-              <span>+91 98765 43210</span>
+              <span>+1 269 360 5071</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-secondary" />

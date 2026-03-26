@@ -20,7 +20,7 @@ const AboutSection = () => {
               Driving Safety with <span className="gradient-text">Smart Technology</span>
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">
-              CarPulseGPS is India's leading GPS tracking solutions provider, empowering vehicle owners, fleet managers, and families with real-time tracking, intelligent alerts, and comprehensive analytics.
+              CarPulseGPS is America's leading GPS tracking solutions provider, empowering vehicle owners, fleet managers, and families with real-time tracking, intelligent alerts, and comprehensive analytics.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
               Our mission is to make every journey safer, every fleet more efficient, and every parent more at ease — using cutting-edge IoT technology and a commitment to reliability.
@@ -33,9 +33,9 @@ const AboutSection = () => {
             className="grid gap-6"
           >
             {[
-              { icon: Target, title: "Our Mission", desc: "To provide affordable, reliable GPS tracking solutions that protect lives and assets across India." },
-              { icon: Users, title: "Our Team", desc: "50+ engineers, support agents, and IoT specialists dedicated to your safety." },
-              { icon: Globe, title: "Pan-India Reach", desc: "Active in 28+ states with 500+ authorized dealers and growing." },
+              { icon: Target, title: "Our Mission", desc: "To provide affordable, reliable GPS tracking solutions that protect lives and assets across the United States." },
+              { icon: Users, title: "Our Team", desc: "12+ engineers, support agents, and IoT specialists dedicated to your safety." },
+              { icon: Globe, title: "Nationwide Reach", desc: "Active in 15+ states with 40+ authorized dealers and growing." },
             ].map((item, i) => (
               <motion.div
                 key={item.title}
