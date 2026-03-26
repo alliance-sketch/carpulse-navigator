@@ -63,8 +63,8 @@ const Contact = () => {
               <h2 className="font-display text-2xl font-bold text-foreground mb-8">Contact Information</h2>
               <div className="space-y-6">
                 {[
-                  { icon: MapPin, title: "Office Address", desc: "123 Tech Park, Electronic City, Bangalore, Karnataka 560100" },
-                  { icon: Phone, title: "Phone", desc: "+91 98765 43210" },
+                  { icon: MapPin, title: "Office Address", desc: "South Main Street, Clarkston, United States" },
+                  { icon: Phone, title: "Phone", desc: "+1 269 360 5071" },
                   { icon: Mail, title: "Email", desc: "info@carpulsegps.com" },
                   { icon: Clock, title: "Business Hours", desc: "Mon-Sat: 9:00 AM - 7:00 PM IST" },
                 ].map((c) => (
@@ -84,7 +84,7 @@ const Contact = () => {
               <div className="mt-8 rounded-2xl overflow-hidden border border-border h-64 bg-muted/30 flex items-center justify-center">
                 <div className="text-center">
                   <MapPin className="w-8 h-8 text-secondary mx-auto mb-2" />
-                  <p className="text-sm text-muted-foreground">Bangalore, Karnataka, India</p>
+                  <p className="text-sm text-muted-foreground">Clarkston, United States</p>
                 </div>
               </div>
             </motion.div>
