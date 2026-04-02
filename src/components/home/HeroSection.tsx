@@ -25,7 +25,7 @@ const HeroSection = () => (
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-sm font-medium mb-6">
             <Shield className="w-4 h-4" />
-            Trusted by 50,000+ Vehicles Across India
+            Trusted by 50,000+ Vehicles Across America
           </div>
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight">
             Track Your Vehicle.{" "}
@@ -49,7 +49,6 @@ const HeroSection = () => (
           </div>
           <div className="mt-10 flex items-center gap-8 text-primary-foreground/60 text-sm">
             <div className="flex items-center gap-2"><Smartphone className="w-4 h-4 text-secondary" /> Free Mobile App</div>
-            <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-secondary" /> Pan-India Coverage</div>
           </div>
         </motion.div>
 

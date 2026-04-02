@@ -1,12 +1,12 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Zap, HeadphonesIcon, Award, IndianRupee } from "lucide-react";
+import { Zap, HeadphonesIcon, Award, DollarSign } from "lucide-react";
 
 const reasons = [
   { icon: Zap, title: "Lightning Fast", desc: "10-second update intervals with 99.9% server uptime." },
   { icon: HeadphonesIcon, title: "24/7 Support", desc: "Dedicated support team available round the clock via phone, chat, and email." },
-  { icon: Award, title: "Industry Certified", desc: "AIS-140 compliant devices approved by Indian government standards." },
-  { icon: IndianRupee, title: "Best Value", desc: "Competitive pricing with no hidden charges. Plans starting at ₹199/month." },
+  { icon: Award, title: "Industry Certified", desc: "AIS-140 compliant devices approved by government standards." },
+  { icon: DollarSign, title: "Best Value", desc: "Competitive pricing with no hidden charges. Plans starting at $9.99/month." },
 ];
 
 const WhyUsSection = () => {

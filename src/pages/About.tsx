@@ -6,10 +6,10 @@ import { Target, Users, Globe, Award, Shield, Heart } from "lucide-react";
 const values = [
   { icon: Shield, title: "Safety First", desc: "Every product we build prioritizes the safety of people and assets." },
   { icon: Heart, title: "Customer Obsession", desc: "We go above and beyond to ensure every customer feels valued and supported." },
-  { icon: Award, title: "Quality", desc: "AIS-140 certified devices built to withstand Indian road conditions." },
+  { icon: Award, title: "Quality", desc: "AIS-140 certified devices built to withstand American road conditions." },
   { icon: Target, title: "Innovation", desc: "Constantly pushing boundaries with AI-powered analytics and IoT integration." },
-  { icon: Users, title: "Community", desc: "Building India's largest network of GPS dealers and service partners." },
-  { icon: Globe, title: "Accessibility", desc: "Making GPS tracking affordable and accessible to every Indian vehicle owner." },
+  { icon: Users, title: "Community", desc: "Building America's largest network of GPS dealers and service partners." },
+  { icon: Globe, title: "Accessibility", desc: "Making GPS tracking affordable and accessible to every American vehicle owner." },
 ];
 
 const About = () => (
@@ -20,10 +20,10 @@ const About = () => (
         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
           <p className="text-secondary font-semibold text-sm uppercase tracking-wider mb-3">About Us</p>
           <h1 className="font-display text-4xl md:text-5xl font-bold text-primary-foreground leading-tight">
-            Driving India's <span className="text-secondary">GPS Revolution</span>
+            Driving America's <span className="text-secondary">GPS Revolution</span>
           </h1>
           <p className="mt-6 text-lg text-primary-foreground/70 leading-relaxed">
-            Founded in 2025, CarPulseGPS has quickly become America's most trusted GPS tracking brand, serving over 5,000 vehicles across 15 states.
+            Founded in 2025, CarPulseGPS has quickly become America's most trusted GPS tracking brand, serving over 200 vehicles across 15 states.
           </p>
         </motion.div>
       </div>
@@ -36,7 +36,7 @@ const About = () => (
             <h2 className="font-display text-3xl font-bold text-foreground">Our Story</h2>
             <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
               <p>CarPulseGPS was born from a simple but powerful idea: every vehicle owner in the United States deserves affordable, reliable GPS tracking technology.</p>
-              <p>What started as a small team in Clarkston has grown into a nationwide operation with 12+ employees, 40+ dealers, and technology that protects over 5,000 vehicles daily.</p>
+              <p>What started as a small team in Clarkston has grown into a nationwide operation with 12+ employees, 15+ dealers, and technology that protects over 200 vehicles daily.</p>
               <p>We've built our reputation on three pillars: cutting-edge technology, unmatched customer service, and partnerships that empower local entrepreneurs through our dealer network.</p>
             </div>
           </div>
@@ -47,8 +47,8 @@ const About = () => (
             </p>
             <div className="mt-8 grid grid-cols-2 gap-4">
               {[
-                { value: "5,000+", label: "Vehicles Protected" },
-                { value: "40+", label: "Active Dealers" },
+                { value: "200+", label: "Vehicles Protected" },
+                { value: "15+", label: "Active Dealers" },
                 { value: "15+", label: "States Covered" },
                 { value: "99.9%", label: "Uptime" },
               ].map((s) => (

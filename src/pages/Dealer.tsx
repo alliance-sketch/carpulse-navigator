@@ -39,7 +39,7 @@ const Dealer = () => {
               Become a <span className="text-secondary">CarPulseGPS Dealer</span>
             </h1>
             <p className="mt-6 text-lg text-primary-foreground/70">
-              Join India's fastest-growing GPS tracking network. Earn attractive margins and build a profitable business.
+              Join America's fastest-growing GPS tracking network. Earn attractive margins and build a profitable business.
             </p>
           </motion.div>
         </div>
